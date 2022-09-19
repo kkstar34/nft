@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG : hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%)
+}
+
+body {
+    background-color : var(--Very-dark-blue-main-BG);
+    display : flex ;
+    justify-content : center;
+    align-items : center;
+    height : 100vh;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.card{
+   
+    height: 550px;
+    width: 300px;
+    border-radius: 0.8rem;
+    background-color : var(--Very-dark-blue-card-BG);
+    box-shadow: 1rem 0.5rem 1rem rgba(0, 0, 0, 0.18);
+    padding : 1rem;
+}
+
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.title{
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.description{
+    color: var(--Soft-blue);
+}
+
+.ethereum-price img{
+    width: 10px;
+}
+
+.ethereum-price{
+    display: flex;
+ 
+}
+
+.ethereum-price h5{
+ color: var(--Cyan);
+}
+
+.second-box{
+    margin-left: 0.5rem;
+}
+
+
+.ethereum-date img{
+    width: 15px;
+    margin-right: 0.5rem;
+}
+
+.ethereum-container{
+    display: flex;	
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.ethereum-date{
+    display: flex;
+}
+
+.second-box-second h5{
+    color : var(--Soft-blue);
+    font-weight: normal;
+}
+
+.line{
+    border-top : 1px solid var(--Very-dark-blue-line);
+    margin-top: 2rem;
+    
+}
+
+.image-avatar img{
+    width: 40px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+.container{
+    display: flex;
+}
+.image-avatar-write{
+        margin-top: 1.5rem;
+        color: var(--Soft-blue);
+}
+.jules{
+        margin-top: 1.5rem;
+         color: white;
+         margin-left: 0.5rem;
+}
